@@ -1,1371 +1,1125 @@
-<!DOCTYPE HTML>
-<html lang="zh-CN">
-
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="musics, 黑瞎子">
-    <meta name="description" content="专注分享快乐，记录美好">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="renderer" content="webkit|ie-stand|ie-comp">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-
-    <title>musics | 黑瞎子</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
-
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="/css/my.css">
-
-    <script src="/libs/jquery/jquery.min.js"></script>
-
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="黑瞎子" type="application/atom+xml">
+<meta charset="utf-8">
+<title>HTML5可视化音频动画特效 </title>
+<meta name="description" content="HTML5可视化音频动画特效" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/chenyfan/cdn/assets/radio/css/css.css">
 </head>
-
-
-
-
 <body>
-    <header class="navbar-fixed">
-    <nav id="headNav" class="bg-color nav-transparent">
-        <div id="navContainer" class="nav-wrapper container">
-            <div class="brand-logo">
-                <a href="/" class="waves-effect waves-light">
-                    
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">黑瞎子</span>
-                </a>
-            </div>
-            
-
-<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
-<ul class="right nav-menu">
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/" class="waves-effect waves-light">
-      
-      <i class="fas fa-home" style="zoom: 0.6;"></i>
-      
-      <span>首页</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/" class="waves-effect waves-light">
-
-      
-      <i class="fas fa-list" style="zoom: 0.6;"></i>
-      
-      <span>类别</span>
-      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
-    </a>
-    <ul class="sub-nav menus_item_child ">
-      
-      <li>
-        <a href="/tags">
-          
-          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>文章标签</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/categories">
-          
-          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>文章分类</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/archives">
-          
-          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>文章日历</span>
-        </a>
-      </li>
-      
-    </ul>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/about" class="waves-effect waves-light">
-      
-      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
-      
-      <span>关于</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/contact" class="waves-effect waves-light">
-      
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
-      
-      <span>留言板</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/friends" class="waves-effect waves-light">
-      
-      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
-      
-      <span>友情链接</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="" class="waves-effect waves-light">
-
-      
-      <i class="fas fa-list" style="zoom: 0.6;"></i>
-      
-      <span>poke me</span>
-      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
-    </a>
-    <ul class="sub-nav menus_item_child ">
-      
-      <li>
-        <a href="/musics">
-          
-          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>音乐欣赏</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/navigation">
-          
-          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>常用导航</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/photo">
-          
-          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>我的相册</span>
-        </a>
-      </li>
-      
-    </ul>
-    
-  </li>
-  
-  <li>
-    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
-    </a>
-  </li>
-</ul>
-
-
-<div id="mobile-nav" class="side-nav sidenav">
-
-    <div class="mobile-head bg-color">
-        
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
-        
-        <div class="logo-name">黑瞎子</div>
-        <div class="logo-desc">
-            
-            专注分享快乐，记录美好
-            
-        </div>
+    <div id="menu">
+        <a id="btStartAudioVisualization" class="bt">启动音频可视化</a>
+        <input id="btLoadAudio" type="file" accept="https://cdn.jsdelivr.net/gh/chenyfan/cdn/assets/radio/audio/*"><label id="labelLoadAudio" for="btLoadAudio" class="bt">加载音频</label>
     </div>
+    <p id="txtStatus"></p>
+    <script>
+        var audio, audioContext, audioSrc;
+        var analyser, analyserBufferLength;
+        var audioInfo = 'Song:3d-Experience';
 
-    
+        //---
 
-    <ul class="menu-list mobile-menu-list">
-        
-        <li class="m-nav-item">
-	  
-		<a href="/" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-home"></i>
-			
-			首页
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="javascript:;">
-			
-				<i class="fa-fw fas fa-list"></i>
-			
-			类别
-			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
-		</a>
-            <ul  style="background:  ;" >
-              
-                <li>
+        var MATHPI2 = Math.PI * 2;
 
-                  <a href="/tags " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-tags" style="position: absolute;left:50px" ></i>
-			      
-		          <span>文章标签</span>
-                  </a>
-                </li>
-              
-                <li>
+        //---
 
-                  <a href="/categories " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
-			      
-		          <span>文章分类</span>
-                  </a>
-                </li>
-              
-                <li>
+        var w;
+        var h;
 
-                  <a href="/archives " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-archive" style="position: absolute;left:50px" ></i>
-			      
-		          <span>文章日历</span>
-                  </a>
-                </li>
-              
-            </ul>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/about" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-user-circle"></i>
-			
-			关于
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/contact" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-comments"></i>
-			
-			留言板
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/friends" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-address-book"></i>
-			
-			友情链接
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="javascript:;">
-			
-				<i class="fa-fw fas fa-list"></i>
-			
-			poke me
-			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
-		</a>
-            <ul  style="background:  ;" >
-              
-                <li>
+        var btStart;
+        var btLoadAudio;
+        var labelLoadAudio;
+        var txtStatus;
+        var canvas;
+        var context;
 
-                  <a href="/musics " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
-			      
-		          <span>音乐欣赏</span>
-                  </a>
-                </li>
-              
-                <li>
+        var imageData;
+        var data;
 
-                  <a href="/navigation " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
-			      
-		          <span>常用导航</span>
-                  </a>
-                </li>
-              
-                <li>
+        var mouseActive = false;
+        var mouseDown = false;
+        var mousePos = { x: 0, y: 0 };
 
-                  <a href="/photo " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
-			      
-		          <span>我的相册</span>
-                  </a>
-                </li>
-              
-            </ul>
-          
-        </li>
-        
-        
-        <li><div class="divider"></div></li>
-        <li>
-            <a href="https://history1020.github.io" class="waves-effect waves-light" target="_blank">
-                <i class="fab fa-github-square fa-fw"></i>首页
-            </a>
-        </li>
-        
-    </ul>
-</div>
+        var fov = 250;
 
+        var speed = 0.75;//0.25;
 
-        </div>
+        var cubeMinHeight = 2;
 
-        
-            <style>
-    .nav-transparent .github-corner {
-        display: none !important;
-    }
+        var frequencyDamp = 25;
+        var smoothingTimeConstant = 0.65;
+        var fftSize = 8192;//32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768
 
-    .github-corner {
-        position: absolute;
-        z-index: 10;
-        top: 0;
-        right: 0;
-        border: 0;
-        transform: scale(1.1);
-    }
+        var circleHolder = [];
 
-    .github-corner svg {
-        color: #0f9d58;
-        fill: #fff;
-        height: 64px;
-        width: 64px;
-    }
+        var time = 0;
 
-    .github-corner:hover .octo-arm {
-        animation: a 0.56s ease-in-out;
-    }
+        var colorInvertValue = 0;
 
-    .github-corner .octo-arm {
-        animation: none;
-    }
+        var rgb = {};
+        rgb.r = Math.random() * MATHPI2;
+        rgb.g = Math.random() * MATHPI2;
+        rgb.b = Math.random() * MATHPI2;
 
-    @keyframes a {
-        0%,
-        to {
-            transform: rotate(0);
-        }
-        20%,
-        60% {
-            transform: rotate(-25deg);
-        }
-        40%,
-        80% {
-            transform: rotate(10deg);
-        }
-    }
-</style>
+        var rgb2 = {};
+        rgb2.r = Math.random() * MATHPI2;
+        rgb2.g = Math.random() * MATHPI2;
+        rgb2.b = Math.random() * MATHPI2;
 
-<a href="https://history1020.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
-   data-tooltip="首页" data-position="left" data-delay="50">
-    <svg viewBox="0 0 250 250" aria-hidden="true">
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-              fill="currentColor" class="octo-body"></path>
-    </svg>
-</a>
-        
-    </nav>
+        //---
+        /*
+        function getRGBColor() {
 
-</header>
+          var r = Math.sin( rgb.r += 0.010 ) * 1 + 1;
+          var g = Math.sin( rgb.g += 0.007 ) * 1 + 1;
+          var b = Math.sin( rgb.b += 0.013 ) * 1 + 1;
+          //var r = Math.sin( rgb.r += 0.040 ) * 1 + 1;
+          //var g = Math.sin( rgb.g += 0.028 ) * 1 + 1;
+          //var b = Math.sin( rgb.b += 0.052 ) * 1 + 1;
 
-    
+          return { r:r, g:g, b:b };
 
+        };*/
 
+        function getRGBColor(color) {
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
-    <div class="container" style="right: 0px;left: 0px;">
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="brand">
-                    <h1 class="description center-align post-title">musics</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+            var r = Math.sin(color.r += 0.010) * 1 + 1;
+            var g = Math.sin(color.g += 0.007) * 1 + 1;
+            var b = Math.sin(color.b += 0.013) * 1 + 1;
+            //var r = Math.sin( color.r += 0.040 ) * 1 + 1;
+            //var g = Math.sin( color.g += 0.028 ) * 1 + 1;
+            //var b = Math.sin( color.b += 0.052 ) * 1 + 1;
 
+            return { r: r, g: g, b: b };
 
-
-
-<main class="post-container content">
-
-    
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
-<style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
-        margin-top: -100px;
-        visibility: hidden;
-    }
-
-    #articleContent :focus {
-        outline: none;
-    }
-
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
-    }
-
-    .toc-widget {
-        width: 345px;
-        padding-left: 20px;
-    }
-
-    .toc-widget .toc-title {
-        padding: 35px 0 15px 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content {
-        padding-bottom: 30px;
-        overflow: auto;
-    }
-
-    #toc-content ol {
-        padding-left: 10px;
-    }
-
-    #toc-content ol li {
-        padding-left: 10px;
-    }
-
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
-
-        position: absolute;
-        right: 23.5vw;
-        display: block;
-    }
-
-    #toc-content .is-active-link {
-        color: #42b983;
-    }
-
-    #floating-toc-btn {
-        position: fixed;
-        right: 15px;
-        bottom: 76px;
-        padding-top: 15px;
-        margin-bottom: 0;
-        z-index: 998;
-    }
-
-    #floating-toc-btn .btn-floating {
-        width: 48px;
-        height: 48px;
-    }
-
-    #floating-toc-btn .btn-floating i {
-        line-height: 48px;
-        font-size: 1.4rem;
-    }
-</style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
-        <!-- 文章内容详情 -->
-<div id="artDetail">
-    <div class="card">
-        <div class="card-content article-info">
-            <div class="row tag-cate">
-                <div class="col s7">
-                    
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                </div>
-            </div>
-
-            <div class="post-info">
-                
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-04-07
-                </div>
-                
-
-                
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-04-07
-                </div>
-                
-
-                
-                <div class="info-break-policy">
-                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
-                </div>
-                
-
-                
-
-                
-            </div>
-        </div>
-        <hr class="clearfix">
-
-        
-        <!-- 是否加载使用自带的 prismjs. -->
-        <link rel="stylesheet" href="/libs/prism/prism.css">
-        
-
-        
-
-        <div class="card-content article-card-content">
-            <div id="articleContent">
-                
-                
-            </div>
-            <hr/>
-
-            
-
-    <div class="reprint" id="reprint-statement">
-        
-            <div class="reprint__author">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-user">
-                        文章作者:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">黑瞎子</a>
-                </span>
-            </div>
-            <div class="reprint__type">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-link">
-                        文章链接:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    <a href="https://history1020.github.io/musics/index.html">https://history1020.github.io/musics/index.html</a>
-                </span>
-            </div>
-            <div class="reprint__notice">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-copyright">
-                        版权声明:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    本博客所有文章除特別声明外，均采用
-                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
-                    许可协议。转载请注明来源
-                    <a href="/about" target="_blank">黑瞎子</a>
-                    !
-                </span>
-            </div>
-        
-    </div>
-
-    <script async defer>
-      document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
-        M.toast({html: toastHTML})
-      });
-
-      function navToReprintStatement() {
-        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
-      }
-    </script>
-
-
-
-            <div class="tag_share" style="display: block;">
-                <div class="post-meta__tag-list" style="display: inline-block;">
-                    
-                        <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                        </div>
-                    
-                </div>
-                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
-                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-<div id="article-share">
-
-    
-    <div class="social-share" data-sites="google,qq,qzone,wechat,weibo" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-    <script src="/libs/share/js/social-share.min.js"></script>
-    
-
-    
-
-</div>
-
-                </div>
-            </div>
-            
-                <style>
-    #reward {
-        margin: 40px 0;
-        text-align: center;
-    }
-
-    #reward .reward-link {
-        font-size: 1.4rem;
-        line-height: 38px;
-    }
-
-    #reward .btn-floating:hover {
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    #rewardModal {
-        width: 320px;
-        height: 350px;
-    }
-
-    #rewardModal .reward-title {
-        margin: 15px auto;
-        padding-bottom: 5px;
-    }
-
-    #rewardModal .modal-content {
-        padding: 10px;
-    }
-
-    #rewardModal .close {
-        position: absolute;
-        right: 15px;
-        top: 15px;
-        color: rgba(0, 0, 0, 0.5);
-        font-size: 1.3rem;
-        line-height: 20px;
-        cursor: pointer;
-    }
-
-    #rewardModal .close:hover {
-        color: #ef5350;
-        transform: scale(1.3);
-        -moz-transform:scale(1.3);
-        -webkit-transform:scale(1.3);
-        -o-transform:scale(1.3);
-    }
-
-    #rewardModal .reward-tabs {
-        margin: 0 auto;
-        width: 210px;
-    }
-
-    .reward-tabs .tabs {
-        height: 38px;
-        margin: 10px auto;
-        padding-left: 0;
-    }
-
-    .reward-content ul {
-        padding-left: 0 !important;
-    }
-
-    .reward-tabs .tabs .tab {
-        height: 38px;
-        line-height: 38px;
-    }
-
-    .reward-tabs .tab a {
-        color: #fff;
-        background-color: #ccc;
-    }
-
-    .reward-tabs .tab a:hover {
-        background-color: #ccc;
-        color: #fff;
-    }
-
-    .reward-tabs .wechat-tab .active {
-        color: #fff !important;
-        background-color: #22AB38 !important;
-    }
-
-    .reward-tabs .alipay-tab .active {
-        color: #fff !important;
-        background-color: #019FE8 !important;
-    }
-
-    .reward-tabs .reward-img {
-        width: 210px;
-        height: 210px;
-    }
-</style>
-
-<div id="reward">
-    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
-
-    <!-- Modal Structure -->
-    <div id="rewardModal" class="modal">
-        <div class="modal-content">
-            <a class="close modal-close"><i class="fas fa-times"></i></a>
-            <h4 class="reward-title">你的赏识是我前进的动力</h4>
-            <div class="reward-content">
-                <div class="reward-tabs">
-                    <ul class="tabs row">
-                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
-                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
-                    </ul>
-                    <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
-                    </div>
-                    <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    $(function () {
-        $('.tabs').tabs();
-    });
-</script>
-
-            
-        </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-    <div class="livere-card card" data-aos="fade-up">
-    <!-- 来必力City版安装代码 -->
-    <div id="lv-container" class="card-content" data-id="city" data-uid="MTAyMC81MzE3OS8yOTY1NA">
-        <script type="text/javascript">
-            (function (d, s) {
-                let j, e = d.getElementsByTagName(s)[0];
-                if (typeof LivereTower === 'function') {
-                    return;
-                }
-
-                j = d.createElement(s);
-                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-                j.async = true;
-
-                e.parentNode.insertBefore(j, e);
-            })(document, 'script');
-        </script>
-        <noscript>为正常使用来必力评论功能请激活JavaScript。</noscript>
-    </div>
-    <!-- City版安装代码已完成 -->
-</div>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
-            <div class="card">
-                <a href="/musics/index.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="musics">
-                        
-                        <span class="card-title">musics</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-07
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            黑瞎子
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/musics/index.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="musics">
-                        
-                        <span class="card-title">musics</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-07
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            黑瞎子
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-            </div>
-        </div>
-        
-    </div>
-</article>
-
-</div>
-
-
-
-<!-- 代码块功能依赖 -->
-<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
-
-<!-- 代码语言 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
-
-
-<!-- 代码块复制 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
-
-
-<!-- 代码块收缩 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
-
-
-    </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget card" style="background-color: white;">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
-    </div>
-</div>
-
-<!-- TOC 悬浮按钮. -->
-
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fas fa-list-ul"></i>
-    </a>
-</div>
-
-
-<script src="/libs/tocbot/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
         };
 
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).hide();
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).show();
-                $mainContent.addClass('l9');
+        function getRGBColor2(color) {
+
+            //var r = Math.sin( color.r += 0.010 ) * 1 + 1;
+            //var g = Math.sin( color.g += 0.007 ) * 1 + 1;
+            //var b = Math.sin( color.b += 0.013 ) * 1 + 1;
+            var r = Math.sin(color.r += 0.040) * 1 + 1;
+            var g = Math.sin(color.g += 0.028) * 1 + 1;
+            var b = Math.sin(color.b += 0.052) * 1 + 1;
+
+            return { r: r, g: g, b: b };
+
+        };
+
+        function limitRGBColor(color, percent = 0.45) {
+
+            if (color.r < percent) {
+
+                color.r = percent;
+
             }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
-        
-    });
-</script>
 
-    
+            if (color.g < percent) {
 
-</main>
+                color.g = percent;
 
+            }
 
+            if (color.b < percent) {
 
+                color.b = percent;
 
-    <footer class="page-footer bg-color">
-    
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        display: none;
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
+            }
 
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
-        
-        font-size: 15px;
-        color: #42b983;
-    }
+        };
 
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
+        function init() {
 
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
+            canvas = document.createElement('canvas');
+            canvas.addEventListener('mousedown', mouseDownHandler, false);
+            canvas.addEventListener('mouseup', mouseUpHandler, false);
+            canvas.addEventListener('mousemove', mouseMoveHandler, false);
+            canvas.addEventListener('mouseenter', mouseEnterHandler, false);
+            canvas.addEventListener('mouseleave', mouseLeaveHandler, false);
 
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="playlist"
-                   id="2563964746"
-                   fixed='true'
-                   autoplay='true'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='auto'
-                   volume='0.7'
-                   list-folded='true'
-        >
-        </meting-js>
-    </div>
-</div>
+            document.body.appendChild(canvas);
 
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+            context = canvas.getContext('2d');
 
-    
-    <div class="container row center-align" style="margin-bottom: 15px !important;">
-        <div class="col s12 m8 l8 copy-right">
-            Copyright&nbsp;&copy;
-            
-                <span id="year">2021</span>
-            
-            <span id="year">2021</span>
-            <a href="/about" target="_blank">黑瞎子</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
-            <br>
-            
-            
-            
-            
-            
-            <span id="busuanzi_container_site_uv">
-                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
-                    class="white-color"></span>&nbsp;人
-            </span>
-            
-            <br>
-            
-            <span id="sitetime">载入运行时间...</span>
-            <script>
-                function siteTime() {
-                    var seconds = 1000;
-                    var minutes = seconds * 60;
-                    var hours = minutes * 60;
-                    var days = hours * 24;
-                    var years = days * 365;
-                    var today = new Date();
-                    var startYear = "2021";
-                    var startMonth = "4";
-                    var startDate = "1";
-                    var startHour = "0";
-                    var startMinute = "0";
-                    var startSecond = "0";
-                    var todayYear = today.getFullYear();
-                    var todayMonth = today.getMonth() + 1;
-                    var todayDate = today.getDate();
-                    var todayHour = today.getHours();
-                    var todayMinute = today.getMinutes();
-                    var todaySecond = today.getSeconds();
-                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
-                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
-                    var diff = t2 - t1;
-                    var diffYears = Math.floor(diff / years);
-                    var diffDays = Math.floor((diff / days) - diffYears * 365);
-                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
-                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
-                        minutes);
-                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
-                        diffMinutes * minutes) / seconds);
-                    if (startYear == todayYear) {
-                        document.getElementById("year").innerHTML = todayYear;
-                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
-                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
-                    } else {
-                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
-                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
-                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
-                    }
+            window.addEventListener('resize', onResize, false);
+
+            onResize();
+
+            addCircles();
+
+            render();
+
+            clearImageData();
+
+            render();
+
+            context.putImageData(imageData, 0, 0);
+
+            btStart = document.getElementById('btStartAudioVisualization');
+            btStart.addEventListener('mousedown', userStart, false);
+
+            btLoadAudio = document.getElementById('btLoadAudio');
+            btLoadAudio.addEventListener('change', loadAudioFileHandler, false);
+
+            labelLoadAudio = document.getElementById('labelLoadAudio');
+            labelLoadAudio.style.display = 'none';
+
+            txtStatus = document.getElementById('txtStatus');
+            txtStatus.innerHTML = '静静地等着你...赶紧按下播放键啊！';
+
+        };
+
+        //---
+
+        function userStart() {
+
+            btStart.removeEventListener('mousedown', userStart);
+
+            btStart.addEventListener('mousedown', audioBtHandler, false);
+            btStart.innerHTML = '暂停';
+            btStart.style.display = 'none';
+
+            txtStatus.innerHTML = '加载中...';
+
+            audioSetup('/musics/audio/ak.mp3');
+            animate();
+
+        };
+
+        //---
+
+        function audioSetup(url) {
+
+            if (audio) {
+
+                audio.pause();
+
+            }
+
+            audio = new Audio();
+            audio.src = url;
+            audio.controls = false;
+            audio.loop = true;
+            audio.autoplay = true;
+            audio.crossOrigin = 'anonymous';
+            audio.addEventListener('canplaythrough', audioLoaded, false);
+
+            audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+            analyser = audioContext.createAnalyser();
+            analyser.connect(audioContext.destination);
+            analyser.smoothingTimeConstant = smoothingTimeConstant;
+            analyser.fftSize = fftSize;
+            analyserBufferLength = analyser.frequencyBinCount;
+
+            audioSrc = audioContext.createMediaElementSource(audio);
+            audioSrc.connect(analyser);
+
+        };
+
+        function audioLoaded(e) {
+
+            txtStatus.innerHTML = audioInfo;
+
+            btStart.style.display = 'inline-block';
+
+            labelLoadAudio.style.display = 'inline-block';
+
+        };
+
+        function loadAudioFileHandler(e) {
+
+            loadFile(e);
+
+        };
+
+        function loadFile(e) {
+
+            var input = e.target;
+            var reader = new FileReader();
+
+            audioInfo = input.files[0].name;
+            audioSetup(URL.createObjectURL(input.files[0]));
+
+        };
+
+        //---
+
+        function clearImageData() {
+
+            for (var i = 0, l = data.length; i < l; i += 4) {
+
+                data[i] = 0;
+                data[i + 1] = 0;
+                data[i + 2] = 0;
+                data[i + 3] = 255;
+
+            }
+
+        };
+
+        function setPixel(x, y, r, g, b, a) {
+
+            var i = (x + y * imageData.width) * 4;
+
+            data[i] = r;
+            data[i + 1] = g;
+            data[i + 2] = b;
+            data[i + 3] = a;
+
+        };
+
+        //---
+
+        function drawLine(x1, y1, x2, y2, r, g, b, a) {
+
+            var dx = Math.abs(x2 - x1);
+            var dy = Math.abs(y2 - y1);
+
+            var sx = (x1 < x2) ? 1 : -1;
+            var sy = (y1 < y2) ? 1 : -1;
+
+            var err = dx - dy;
+
+            var lx = x1;
+            var ly = y1;
+
+            while (true) {
+
+                if (lx > 0 && lx < w && ly > 0 && ly < h) {
+
+                    setPixel(lx, ly, r, g, b, a);
+
                 }
-                setInterval(siteTime, 1000);
-            </script>
-            
-            <br>
-            
-        </div>
-        <div class="col s12 m4 l4 social-link ">
 
+                if ((lx === x2) && (ly === y2))
+                    break;
 
-    <a href="mailto:heixiazi05@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
+                var e2 = 2 * err;
 
+                if (e2 > -dx) {
 
+                    err -= dy;
+                    lx += sx;
 
+                }
 
+                if (e2 < dy) {
 
+                    err += dx;
+                    ly += sy;
 
+                }
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1475659731" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1475659731" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
-
-</div>
-    </div>
-</footer>
-
-<div class="progress-bar"></div>
-
-
-    <!-- 搜索遮罩框 -->
-<div id="searchModal" class="modal">
-    <div class="modal-content">
-        <div class="search-header">
-            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
-                   class="search-input">
-        </div>
-        <div id="searchResult"></div>
-    </div>
-</div>
-
-<script type="text/javascript">
-$(function () {
-    var searchFunc = function (path, search_id, content_id) {
-        'use strict';
-        $.ajax({
-            url: path,
-            dataType: "xml",
-            success: function (xmlResponse) {
-                // get the contents from search data
-                var datas = $("entry", xmlResponse).map(function () {
-                    return {
-                        title: $("title", this).text(),
-                        content: $("content", this).text(),
-                        url: $("url", this).text()
-                    };
-                }).get();
-                var $input = document.getElementById(search_id);
-                var $resultContent = document.getElementById(content_id);
-                $input.addEventListener('input', function () {
-                    var str = '<ul class=\"search-result-list\">';
-                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                    $resultContent.innerHTML = "";
-                    if (this.value.trim().length <= 0) {
-                        return;
-                    }
-                    // perform local searching
-                    datas.forEach(function (data) {
-                        var isMatch = true;
-                        var data_title = data.title.trim().toLowerCase();
-                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
-                        var index_title = -1;
-                        var index_content = -1;
-                        var first_occur = -1;
-                        // only match artiles with not empty titles and contents
-                        if (data_title !== '' && data_content !== '') {
-                            keywords.forEach(function (keyword, i) {
-                                index_title = data_title.indexOf(keyword);
-                                index_content = data_content.indexOf(keyword);
-                                if (index_title < 0 && index_content < 0) {
-                                    isMatch = false;
-                                } else {
-                                    if (index_content < 0) {
-                                        index_content = 0;
-                                    }
-                                    if (i === 0) {
-                                        first_occur = index_content;
-                                    }
-                                }
-                            });
-                        }
-                        // show search results
-                        if (isMatch) {
-                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
-                            var content = data.content.trim().replace(/<[^>]+>/g, "");
-                            if (first_occur >= 0) {
-                                // cut out 100 characters
-                                var start = first_occur - 20;
-                                var end = first_occur + 80;
-                                if (start < 0) {
-                                    start = 0;
-                                }
-                                if (start === 0) {
-                                    end = 100;
-                                }
-                                if (end > content.length) {
-                                    end = content.length;
-                                }
-                                var match_content = content.substr(start, end);
-                                // highlight all keywords
-                                keywords.forEach(function (keyword) {
-                                    var regS = new RegExp(keyword, "gi");
-                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
-                                });
-
-                                str += "<p class=\"search-result\">" + match_content + "...</p>"
-                            }
-                            str += "</li>";
-                        }
-                    });
-                    str += "</ul>";
-                    $resultContent.innerHTML = str;
-                });
             }
-        });
-    };
 
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
-});
-</script>
+        };
 
-    <!-- 回到顶部按钮 -->
-<div id="backTop" class="top-scroll">
-    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-</div>
+        //---
+
+        function getCirclePosition(centerX, centerY, radius, index, segments) {
+
+            var angle = index * (MATHPI2 / segments) + time;
+
+            var x = centerX + Math.cos(angle) * radius;
+            var y = centerY + Math.sin(angle) * radius;
+
+            return { x: x, y: y };
+
+        };
+
+        function drawCircle(centerPosition, radius, segments) {
+
+            var coordinates = [];
+
+            var radiusSave;
+
+            var diff = 0;//Math.floor( Math.random() * segments );
+
+            for (var i = 0; i <= segments; i++) {
+
+                //var radiusRandom = radius + Math.random() * ( radius / 8 );
+                //var radiusRandom = radius + Math.random() * ( radius / 32 );
+                var radiusRandom = radius;// + ( radius / 8 );
+
+                if (i === 0) {
+
+                    radiusSave = radiusRandom;
+
+                }
+
+                if (i === segments) {
+
+                    radiusRandom = radiusSave;
+
+                }
+
+                var centerX = centerPosition.x;
+                var centerY = centerPosition.y;
+
+                var position = getCirclePosition(centerX, centerY, radiusRandom, i, segments);
+
+                coordinates.push({ x: position.x, y: position.y, index: i + diff, radius: radiusRandom, segments: segments });
+
+            }
+
+            return coordinates;
+
+        };
+
+        function addCircleSegment(x, y, z, audioBufferIndex) {
+
+            var circleSegment = {};
+            circleSegment.x = x;
+            circleSegment.y = y;
+            //circleSegment.z = z;
+            circleSegment.x2d = 0;
+            circleSegment.y2d = 0;
+            circleSegment.audioBufferIndex = audioBufferIndex;
+
+            return circleSegment;
+
+        };
+
+        function addCircles() {
+
+            var audioBufferIndexMin = 8;
+            var audioBufferIndexMax = 1024;
+            var audioBufferIndex = audioBufferIndexMin;
+
+            var centerPosition = { x: 0, y: 0 };
+            var center = { x: 0, y: 0 };
+
+            var toggle = 1;
+            var index = 0;
+            var audioIndex = audioBufferIndexMin;
+
+            var mp = { x: Math.random() * w, y: Math.random() * h };
+
+            for (var z = -fov; z < fov; z += 5) {
+
+                var coordinates = drawCircle(centerPosition, 75, 64);
+
+                var circleObj = {};
+                circleObj.segmentsOutside = [];
+                circleObj.segmentsInside = [];
+                circleObj.segmentsInside2 = [];
+                circleObj.segmentsCount = 0;
+                circleObj.index = index;
+                //circleObj.audioIndex = audioIndex;
+                circleObj.z = z;
+                circleObj.center = center;
+                circleObj.circleCenter = { x: 0, y: 0 };
+                circleObj.mp = { x: mp.x, y: mp.y };
+                circleObj.radius = coordinates[0].radius;
+                //circleObj.radiusAudio = circleObj.radius;
+                circleObj.color = { r: 0, g: 0, b: 0 };
+
+                //toggle = index % 4;
+                toggle = index % 2;
+                index++;
+
+                if (z < 0) {
+
+                    audioIndex++;
+
+                } else {
+
+                    audioIndex--;
+
+                }
+
+                audioBufferIndex = Math.floor(Math.random() * audioBufferIndexMax) + audioBufferIndexMin;
+                //audioBufferIndex = audioBufferIndexMin;
+
+                var circleSegmentOutside;
+
+                for (var i = 0, l = coordinates.length; i < l; i++) {
+
+                    var coordinate = coordinates[i];
+
+                    //if ( i % 4 === toggle && i % 2 === 1 ) {
+                    if (i % 2 === toggle) {
+
+                        circleSegmentOutside = addCircleSegment(coordinate.x, coordinate.y, z, audioBufferIndex);
+                        circleSegmentOutside.active = true;
+                        circleSegmentOutside.index = coordinate.index;
+                        circleSegmentOutside.radius = coordinate.radius;
+                        circleSegmentOutside.radiusAudio = circleSegmentOutside.radius;// + Math.random() * 15;
+                        circleSegmentOutside.segments = coordinate.segments;
+                        circleSegmentOutside.coordinates = [];
+
+                        var co;
+
+                        if (i > 0) {
+
+                            co = coordinates[i - 1];
+
+                        } else {
+
+                            co = coordinates[l - 1];
+
+                        }
+
+                        var sub1 = addCircleSegment(co.x, co.y, z, audioBufferIndex);
+                        var sub2 = addCircleSegment(coordinate.x, coordinate.y, z - 5, audioBufferIndex);
+                        var sub3 = addCircleSegment(co.x, co.y, z - 5, audioBufferIndex);
+
+                        var sub4 = addCircleSegment(coordinate.x, coordinate.y, z, audioBufferIndex);
+                        var sub5 = addCircleSegment(co.x, co.y, z, audioBufferIndex);
+                        var sub6 = addCircleSegment(coordinate.x, coordinate.y, z - 5, audioBufferIndex);
+                        var sub7 = addCircleSegment(co.x, co.y, z - 5, audioBufferIndex);
+
+                        sub1.index = co.index;
+                        sub2.index = coordinate.index;
+                        sub3.index = co.index;
+
+                        sub4.index = coordinate.index;
+                        sub5.index = co.index;
+                        sub6.index = coordinate.index;
+                        sub7.index = co.index;
+
+                        circleSegmentOutside.subs = [];
+                        circleSegmentOutside.subs.push(sub1, sub2, sub3, sub4, sub5, sub6, sub7);
+
+                        //audioBufferIndex = Math.floor( Math.random() * audioBufferIndexMax ) + audioBufferIndexMin;
+
+                        if (i < l - 1) {
+
+                            audioBufferIndex = Math.floor(Math.random() * audioBufferIndexMax) + audioBufferIndexMin;
+
+                        } else {
+
+                            audioBufferIndex = circleObj.segmentsOutside[0].audioBufferIndex;
+
+                        }
+
+                        circleObj.segmentsOutside.push(circleSegmentOutside);
+
+                    } else {
+
+                        circleObj.segmentsOutside.push({ active: false });
+
+                    }
+
+                }
+
+                circleHolder.push(circleObj);
+
+            }
+
+        };
+
+        //---
+
+        function onResize() {
+
+            w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+            canvas.width = w;
+            canvas.height = h;
+
+            context.fillStyle = '#000000';
+            context.fillRect(0, 0, w, h);
+
+            imageData = context.getImageData(0, 0, w, h);
+            data = imageData.data;
+
+        };
+
+        //---
+
+        function audioBtHandler(event) {
+
+            if (audio.paused) {
+
+                audio.play();
+
+                btStart.innerHTML = '暂停';
+
+            } else {
+
+                audio.pause();
+
+                btStart.innerHTML = '启动';
+
+            }
+
+        };
+
+        //---
+
+        function mouseDownHandler(event) {
+
+            mouseDown = true;
+
+        };
+
+        function mouseUpHandler(event) {
+
+            mouseDown = false;
+
+        };
+
+        function mouseEnterHandler(event) {
+
+            mouseActive = true;
+
+        };
+
+        function mouseLeaveHandler(event) {
+
+            mouseActive = false;
+
+            //mousePos.x = w / 2;
+            //mousePos.y = h / 2;
+
+            mouseDown = false;
+
+        };
+
+        function mouseMoveHandler(event) {
+
+            mousePos = getMousePos(canvas, event);
+
+        };
+
+        function getMousePos(canvas, event) {
+
+            var rect = canvas.getBoundingClientRect();
+
+            return { x: event.clientX - rect.left, y: event.clientY - rect.top };
+
+        };
+
+        //---
+
+        function render() {
+
+            var aa = false;
+
+            if (analyser) {
+
+                aa = true;
+
+            }
+
+            var frequencySource;
+
+            if (aa === true) {
+
+                frequencySource = new Uint8Array(analyser.frequencyBinCount);
+
+                analyser.getByteFrequencyData(frequencySource);
+
+            }
+
+            //---
+
+            var sortArray = false;
+
+            //---
+
+            var col = getRGBColor2(rgb);
+            var col2 = getRGBColor(rgb2);
+
+            limitRGBColor(col, 0.45);
+            limitRGBColor(col2, 0.25);
+
+            //---
+
+            for (var i = 0, l = circleHolder.length; i < l; i++) {
+
+                var circleObj = circleHolder[i];
+
+                circleObj.color.r = col.r - (circleObj.z + fov) / fov;
+                circleObj.color.g = col.g - (circleObj.z + fov) / fov;
+                circleObj.color.b = col.b - (circleObj.z + fov) / fov;
+
+                //circleObj.color.r = Math.floor( ( ( ( col.r - circleObj.z + fov ) ) + ( col2.r - circleObj.z + fov ) ) / 2 );
+                //circleObj.color.g = Math.floor( ( ( ( col.g - circleObj.z + fov ) ) + ( col2.g - circleObj.z + fov ) ) / 2 );
+                //circleObj.color.b = Math.floor( ( ( ( col.b - circleObj.z + fov ) ) + ( col2.b - circleObj.z + fov ) ) / 2 );
 
 
-    <script src="/libs/materialize/materialize.min.js"></script>
-    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
-    <script src="/libs/aos/aos.js"></script>
-    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
-    <script src="/js/matery.js"></script>
+                if (circleObj.color.r < col2.r) {
 
-    <!-- Baidu Analytics -->
+                    circleObj.color.r = col2.r;
 
-    <!-- Baidu Push -->
+                }
 
+                if (circleObj.color.g < col2.g) {
+
+                    circleObj.color.g = col2.g;
+
+                }
+
+                if (circleObj.color.b < col2.b) {
+
+                    circleObj.color.b = col2.b;
+
+                }
+
+
+                var circleObjBack;
+
+                if (i > 0) {
+
+                    circleObjBack = circleHolder[i - 1];
+
+                }
+
+                //---
+
+                if (mouseActive) {
+
+                    circleObj.mp = mousePos;
+
+                } else {
+
+                    circleObj.mp.x += ((w / 2) - circleObj.mp.x) * 0.00025;
+                    circleObj.mp.y += ((h / 2) - circleObj.mp.y) * 0.00025;
+
+                }
+
+                //circleObj.center.x = ( ( w / 2 ) - circleObj.mp.x ) * ( -i / 150 ) + w / 2;
+                //circleObj.center.y = ( ( h / 2 ) - circleObj.mp.y ) * ( -i / 150 ) + h / 2;
+
+                circleObj.center.x = ((w / 2) - circleObj.mp.x) * ((circleObj.z - fov) / 500) + w / 2;
+                circleObj.center.y = ((h / 2) - circleObj.mp.y) * ((circleObj.z - fov) / 500) + h / 2;
+
+                //---
+
+                if (aa === true) {
+
+                    //var f = frequencySource[ Math.floor(circleObj.z + fov) ];
+                    //var f = frequencySource[ i ];
+                    //var f = frequencySource[ circleObj.audioIndex ];
+                    //var fAdd = (f / 25);// * ( (circleObj.z - fov) / 200 );
+
+                    //circleObj.radiusAudio = fAdd;
+
+                }
+
+                //---
+
+                for (var j = 0, k = circleObj.segmentsOutside.length; j < k; j++) {
+
+                    var circleSegmentOutside = circleObj.segmentsOutside[j];
+
+                    if (circleSegmentOutside.active === true) {
+
+                        //---
+
+                        var scale = fov / (fov + circleObj.z);
+                        var scaleBack;
+
+                        if (i > 0) {
+
+                            scaleBack = fov / (fov + circleObjBack.z);
+
+                        }
+
+                        var frequency, frequencyAdd;
+
+                        circleSegmentOutside.x2d = (circleSegmentOutside.x * scale) + circleObj.center.x;
+                        circleSegmentOutside.y2d = (circleSegmentOutside.y * scale) + circleObj.center.y;
+
+                        //---
+
+                        if (aa === true) {
+
+                            frequency = frequencySource[circleSegmentOutside.audioBufferIndex];
+                            frequencyAdd = frequency / 20;
+
+                            //---
+
+                            circleSegmentOutside.radiusAudio = circleSegmentOutside.radius - frequencyAdd;
+
+                        }
+
+                        //---
+
+                        var lineColorValue = 0;
+
+                        if (j > 0) {
+
+                            if (aa === true && audio.paused === false) {
+
+                                lineColorValue = Math.round(i / l * (55 + frequency));//255
+
+                                if (lineColorValue > 255) {
+
+                                    lineColorValue = 255;
+
+                                }
+
+                            } else {
+
+                                lineColorValue = Math.round(i / l * 200);//255
+
+                            }
+
+                        }
+
+                        //---
+
+                        if (i > 0 && i < l - 1) {
+
+                            var sub1 = circleSegmentOutside.subs[0];
+                            var sub1angle = sub1.index * (MATHPI2 / circleSegmentOutside.segments) + time;
+                            sub1.x2d = (sub1.x * scale) + circleObj.center.x;
+                            sub1.y2d = (sub1.y * scale) + circleObj.center.y;
+                            sub1.x = circleObj.circleCenter.x + Math.cos(sub1angle) * circleSegmentOutside.radiusAudio;
+                            sub1.y = circleObj.circleCenter.y + Math.sin(sub1angle) * circleSegmentOutside.radiusAudio;
+
+                            var sub2 = circleSegmentOutside.subs[1];
+                            var sub2angle = sub2.index * (MATHPI2 / circleSegmentOutside.segments) + time;
+                            sub2.x2d = (sub2.x * scaleBack) + circleObjBack.center.x;
+                            sub2.y2d = (sub2.y * scaleBack) + circleObjBack.center.y;
+                            sub2.x = circleObj.circleCenter.x + Math.cos(sub2angle) * circleSegmentOutside.radiusAudio;
+                            sub2.y = circleObj.circleCenter.y + Math.sin(sub2angle) * circleSegmentOutside.radiusAudio;
+
+                            var sub3 = circleSegmentOutside.subs[2];
+                            var sub3angle = sub3.index * (MATHPI2 / circleSegmentOutside.segments) + time;
+                            sub3.x2d = (sub3.x * scaleBack) + circleObjBack.center.x;
+                            sub3.y2d = (sub3.y * scaleBack) + circleObjBack.center.y;
+                            sub3.x = circleObj.circleCenter.x + Math.cos(sub3angle) * circleSegmentOutside.radiusAudio;
+                            sub3.y = circleObj.circleCenter.y + Math.sin(sub3angle) * circleSegmentOutside.radiusAudio;
+
+                            var sub4 = circleSegmentOutside.subs[3];
+                            var sub4angle = sub4.index * (MATHPI2 / circleSegmentOutside.segments) + time;
+                            sub4.x2d = (sub4.x * scale) + circleObj.center.x;
+                            sub4.y2d = (sub4.y * scale) + circleObj.center.y;
+                            sub4.x = circleObj.circleCenter.x + Math.cos(sub4angle) * circleSegmentOutside.radius;
+                            sub4.y = circleObj.circleCenter.y + Math.sin(sub4angle) * circleSegmentOutside.radius;
+
+                            var sub5 = circleSegmentOutside.subs[4];
+                            var sub5angle = sub5.index * (MATHPI2 / circleSegmentOutside.segments) + time;
+                            sub5.x2d = (sub5.x * scale) + circleObj.center.x;
+                            sub5.y2d = (sub5.y * scale) + circleObj.center.y;
+                            sub5.x = circleObj.circleCenter.x + Math.cos(sub5angle) * circleSegmentOutside.radius;
+                            sub5.y = circleObj.circleCenter.y + Math.sin(sub5angle) * circleSegmentOutside.radius;
+
+                            var sub6 = circleSegmentOutside.subs[5];
+                            var sub6angle = sub6.index * (MATHPI2 / circleSegmentOutside.segments) + time;
+                            sub6.x2d = (sub6.x * scaleBack) + circleObjBack.center.x;
+                            sub6.y2d = (sub6.y * scaleBack) + circleObjBack.center.y;
+                            sub6.x = circleObj.circleCenter.x + Math.cos(sub6angle) * circleSegmentOutside.radius;
+                            sub6.y = circleObj.circleCenter.y + Math.sin(sub6angle) * circleSegmentOutside.radius;
+
+                            var sub7 = circleSegmentOutside.subs[6];
+                            var sub7angle = sub7.index * (MATHPI2 / circleSegmentOutside.segments) + time;
+                            sub7.x2d = (sub7.x * scaleBack) + circleObjBack.center.x;
+                            sub7.y2d = (sub7.y * scaleBack) + circleObjBack.center.y;
+                            sub7.x = circleObj.circleCenter.x + Math.cos(sub7angle) * circleSegmentOutside.radius;
+                            sub7.y = circleObj.circleCenter.y + Math.sin(sub7angle) * circleSegmentOutside.radius;
+
+                            var p1;
+                            var p2;
+                            var p3;
+                            var p4;
+
+                            var p5 = circleSegmentOutside.subs[3];
+                            var p6 = circleSegmentOutside.subs[4];
+                            var p7 = circleSegmentOutside.subs[6];
+                            var p8 = circleSegmentOutside.subs[5];
+
+                            if (frequencyAdd > 0) {
+
+                                p1 = circleSegmentOutside;
+                                p2 = circleSegmentOutside.subs[1];
+                                p3 = circleSegmentOutside.subs[2];
+                                p4 = circleSegmentOutside.subs[0];
+
+                            }
+
+                            var cr = Math.round(circleObj.color.r * lineColorValue);
+                            var cg = Math.round(circleObj.color.g * lineColorValue);
+                            var cb = Math.round(circleObj.color.b * lineColorValue);
+
+                            if (frequencyAdd > 0) {
+
+                                drawLine(p1.x2d | 0, p1.y2d | 0, p2.x2d | 0, p2.y2d | 0, cr, cg, cb, 255);
+                                drawLine(p2.x2d | 0, p2.y2d | 0, p3.x2d | 0, p3.y2d | 0, cr, cg, cb, 255);
+                                drawLine(p3.x2d | 0, p3.y2d | 0, p4.x2d | 0, p4.y2d | 0, cr, cg, cb, 255);
+                                drawLine(p4.x2d | 0, p4.y2d | 0, p1.x2d | 0, p1.y2d | 0, cr, cg, cb, 255);
+
+                                drawLine(p5.x2d | 0, p5.y2d | 0, p1.x2d | 0, p1.y2d | 0, cr, cg, cb, 255);
+                                drawLine(p6.x2d | 0, p6.y2d | 0, p4.x2d | 0, p4.y2d | 0, cr, cg, cb, 255);
+                                drawLine(p7.x2d | 0, p7.y2d | 0, p3.x2d | 0, p3.y2d | 0, cr, cg, cb, 255);
+                                drawLine(p8.x2d | 0, p8.y2d | 0, p2.x2d | 0, p2.y2d | 0, cr, cg, cb, 255);
+
+                            }
+
+                            if (circleObj.z < fov / 2) {
+
+                                drawLine(p5.x2d | 0, p5.y2d | 0, p6.x2d | 0, p6.y2d | 0, cr, cg, cb, 255);
+                                drawLine(p6.x2d | 0, p6.y2d | 0, p7.x2d | 0, p7.y2d | 0, cr, cg, cb, 255);
+                                drawLine(p7.x2d | 0, p7.y2d | 0, p8.x2d | 0, p8.y2d | 0, cr, cg, cb, 255);
+                                drawLine(p8.x2d | 0, p8.y2d | 0, p5.x2d | 0, p5.y2d | 0, cr, cg, cb, 255);
+
+                            }
+
+                        }
+
+                        //---
+
+                        var circleSegmentOutsideangle;
+
+                        //if ( j < k - 1 ) {
+
+                        circleSegmentOutsideangle = circleSegmentOutside.index * (MATHPI2 / circleSegmentOutside.segments) + time;
+
+                        circleSegmentOutside.x = circleObj.circleCenter.x + Math.cos(circleSegmentOutsideangle) * circleSegmentOutside.radiusAudio;
+                        circleSegmentOutside.y = circleObj.circleCenter.y + Math.sin(circleSegmentOutsideangle) * circleSegmentOutside.radiusAudio;
+
+                        /*} else {
+
+                          var circleSegmentOutside1 = circleObj.segmentsOutside[ 0 ];
+
+                          circleSegmentOutsideangle = circleSegmentOutside1.index * ( MATHPI2 / circleSegmentOutside1.segments ) + time;
+
+                          circleSegmentOutside.x = circleObj.circleCenter.x + Math.cos( circleSegmentOutsideangle ) * circleSegmentOutside1.radiusAudio;
+                          circleSegmentOutside.y = circleObj.circleCenter.y + Math.sin( circleSegmentOutsideangle ) * circleSegmentOutside1.radiusAudio;
+
+                              }
+                        */
+
+
+
+
+                        //---
+                        /*
+                      if ( i > 0 && i < l - 1 ) {
+                      //if ( i > 0 && i < l - 1 && j < k - 1 ) {
+
+                        var circleSegmentOutsideLineBack;// = circleObjBack[ j ];
+                        var circleSegmentInsideLineBack;
+
+                        //if ( j === 0 ) {
+
+                          //pB = circleObjBack.segments[ circleObjBack.segments.length - 1 ];
+
+                        //} else {
+
+                          //pB = circleObjBack.segments[ j - 1 ];
+
+                        //}
+
+                        circleSegmentOutsideLineBack = circleObjBack.segmentsOutside[ j ];
+                        circleSegmentInsideLineBack = circleObjBack.segmentsInside[ j ];
+
+                        //drawLine( circleSegmentOutside.x2d | 0, circleSegmentOutside.y2d | 0, circleSegmentOutsideLineBack.x2d | 0, circleSegmentOutsideLineBack.y2d | 0, 0, Math.round( lineColorValue / 2 ), lineColorValue, 255 );
+                        //drawLine( circleSegmentInside.x2d | 0, circleSegmentInside.y2d | 0, circleSegmentInsideLineBack.x2d | 0, circleSegmentInsideLineBack.y2d | 0, 0, Math.round( lineColorValue / 2 ), lineColorValue, 255 );
+
+                      }
+                      */
+
+
+                    }
+
+                }
+
+                if (mouseDown) {
+
+                    circleObj.z += speed;
+
+                    if (circleObj.z > fov) {
+
+                        circleObj.z -= (fov * 2);
+
+                        sortArray = true;
+
+                    }
+
+                } else {
+
+                    circleObj.z -= speed;
+
+                    if (circleObj.z < -fov) {
+
+                        circleObj.z += (fov * 2);
+
+                        sortArray = true;
+
+                    }
+
+                }
+
+            }
+
+            //---
+
+            if (sortArray) {
+
+                circleHolder = circleHolder.sort(function (a, b) {
+
+                    return (b.z - a.z);
+
+                });
+
+            }
+
+            //---
+
+            if (mouseDown) {
+
+                time -= 0.005;
+
+            } else {
+
+                time += 0.005;
+
+            }
+
+            //---
+
+            //soft invert colors
+            if (mouseDown) {
+
+                if (colorInvertValue < 255)
+                    colorInvertValue += 5;
+                else
+                    colorInvertValue = 255;
+
+                softInvert(colorInvertValue);
+
+            } else {
+
+                if (colorInvertValue > 0)
+                    colorInvertValue -= 5;
+                else
+                    colorInvertValue = 0;
+
+                if (colorInvertValue > 0)
+                    softInvert(colorInvertValue);
+
+            }
+
+        };
+
+        //---
+
+        function softInvert(value) {
+
+            for (var j = 0, n = data.length; j < n; j += 4) {
+
+                data[j] = Math.abs(value - data[j]);     // red
+                data[j + 1] = Math.abs(value - data[j + 1]); // green
+                data[j + 2] = Math.abs(value - data[j + 2]); // blue
+                data[j + 3] = 255;// - data[ j + 3 ]; // alpha
+
+            }
+
+        };
+
+        //---
+
+        function animate() {
+
+            clearImageData();
+
+            render();
+
+            context.putImageData(imageData, 0, 0);
+
+            requestAnimationFrame(animate);
+
+        };
+
+        window.requestAnimFrame = (function () {
+
+            return window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                function (callback) {
+                    window.setTimeout(callback, 1000 / 60);
+                };
+
+        })();
+
+        //---
+
+        init();
+    </script>
 <script>
-    (function () {
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
-            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        } else {
-            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    //隐藏右键
+    // document.oncontextmenu = function (event){
+    //     if(window.event){
+    //     event = window.event;
+    //     }try{
+    //     var the = event.srcElement;
+    //     if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+    //     return false;
+    //     }
+    //     return true;
+    //     }catch (e){
+    //     return false;
+    //     }
+    // }
+
+    // debugger部分
+         setInterval(function() {
+         check();
+         }, 500);
+         var check = function() {
+             function doCheck(a) {
+             if (('' + a / a)['length'] !== 1 || a % 20 === 0) {
+                 (function() {}['constructor']('debugger')());
+             } else {
+                 (function() {}['constructor']('debugger')());
+             }
+             doCheck(++a);
+             }
+             try {
+             doCheck(0);
+            } catch (err) {}
+         };
+         check();
+
+        // ctrl+s保存
+        document.onkeydown = function() {
+            if ((e.ctrlKey) && (e.keyCode == 83)) { //ctrl+s
+                return false;
+            }
         }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
-    })();
+        window.addEventListener("keydown", function(e) {
+            //可以判断是不是mac，如果是mac,ctrl变为花键
+            //event.preventDefault() 方法阻止元素发生默认的行为。
+            if((e.key=='s'||e.key=='S')&&(navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)){
+                e.preventDefault();
+            }
+        }, false);
+        // F12
+        document.onkeydown = function(){
+            if(window.event && window.event.keyCode == 123) {
+                event.keyCode=0;
+                event.returnValue=false;
+            }
+            if(window.event && window.event.keyCode == 13) {
+                window.event.keyCode = 505;
+            }
+            if(window.event && window.event.keyCode == 8) {
+                window.event.returnValue=false;
+            }
+        }
+    //宽高
+     var threshold = 160; // 打开控制台的宽或高阈值  
+    // // 每秒检查一次  
+     window.setInterval(function() {  
+         if (window.outerWidth - window.innerWidth > threshold ||   
+         window.outerHeight - window.innerHeight > threshold) {  
+             // 如果打开控制台，则刷新页面  
+             window.location.reload();  
+         }  
+     }, 1e3);
+
+    //debug调试时跳转页面
+     var element = new Image();
+     Object.defineProperty(element,'id',{get:function(){window.location.href="https://pic.downk.cc/item/5fe1a6073ffa7d37b349bf90.jpg"}});
+     console.log(element);
 </script>
-
-    
-    <script src="/libs/others/clicklove.js" async="async"></script>
-    
-    
-
-    
-
-    
-
-    <!--腾讯兔小巢-->
-    
-    
-
-    
-    
-    <script type="text/javascript" size="150" alpha='0.6'
-        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
-    
-
-    
-
-    
-    <script src="/libs/instantpage/instantpage.js" type="module"></script>
-    
-
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/assets/haru01.model.json"},"display":{"superSample":2,"width":150,"height":300,"position":"right","hOffset":0,"vOffset":-20},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script></body>
-
-</html>
+</body >
+</html >
