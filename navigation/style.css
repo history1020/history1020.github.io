@@ -5,7 +5,7 @@
 		background: #f2f2f2;
 		overflow-x: hidden;
 		overflow-y: auto;
-        background: url(/movies/images/bg.jpg) no-repeat center center fixed; 
+        background: url(/navigation/images/bg.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
