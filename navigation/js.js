@@ -186,23 +186,23 @@ $(function(){
   var search = {
     data: [{
       name: '百度',
-      img: '/movies/images/logo.jpg',
+      img: '/navigation/images/logo.jpg',
       url: 'https://www.baidu.com/s?wd='
     }, {
       name: '谷歌',
-      img: '/movies/images/logo_2.jpg',
+      img: '/navigation/images/logo_2.jpg',
       url: 'https://www.google.com/search?q='
     }, {
       name: '必应',
-      img: '/movies/images/logo_3.jpg',
+      img: '/navigation/images/logo_3.jpg',
       url: 'https://cn.bing.com/search?q='
     }, {
       name: '好搜',
-      img: '/movies/images/logo_4.jpg',
+      img: '/navigation/images/logo_4.jpg',
       url: 'https://www.so.com/s?q='
     }, {
       name: '搜狗',
-      img: '/movies/images/logo_5.jpg',
+      img: '/navigation/images/logo_5.jpg',
       url: 'https://www.sogou.com/web?query='
     }]
   }
