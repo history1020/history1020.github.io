@@ -6,7 +6,7 @@
   <link href="https://history1020.github.io/atom.xml" rel="self"/>
   
   <link href="https://history1020.github.io/"/>
-  <updated>2021-04-11T14:54:30.086Z</updated>
+  <updated>2021-04-12T16:53:50.098Z</updated>
   <id>https://history1020.github.io/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML常用颜色对照表</title>
+    <link href="https://history1020.github.io/2021/04/12/HTML%E5%B8%B8%E7%94%A8%E9%A2%9C%E8%89%B2%E5%AF%B9%E7%85%A7%E8%A1%A8/"/>
+    <id>https://history1020.github.io/2021/04/12/HTML%E5%B8%B8%E7%94%A8%E9%A2%9C%E8%89%B2%E5%AF%B9%E7%85%A7%E8%A1%A8/</id>
+    <published>2021-04-12T15:36:34.000Z</published>
+    <updated>2021-04-12T16:53:50.098Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;markdown在美化博文过程当中，需要提取颜色色值或者颜色名，为了丰富博文的美观度，借鉴了很多教程，最终以下表格最适合在使用过程中提取色值，其中包含了，颜色名，十六进制颜色的色值，以及RGB的色值，方便直观&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="记录 代码" scheme="https://history1020.github.io/categories/%E8%AE%B0%E5%BD%95-%E4%BB%A3%E7%A0%81/"/>
+    
+    
+    <category term="HTML" scheme="https://history1020.github.io/tags/HTML/"/>
+    
+    <category term="颜色" scheme="https://history1020.github.io/tags/%E9%A2%9C%E8%89%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件推荐之飞火壁纸</title>
+    <link href="https://history1020.github.io/2021/04/12/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90%E4%B9%8B%E9%A3%9E%E7%81%AB%E5%A3%81%E7%BA%B8/"/>
+    <id>https://history1020.github.io/2021/04/12/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90%E4%B9%8B%E9%A3%9E%E7%81%AB%E5%A3%81%E7%BA%B8/</id>
+    <published>2021-04-12T15:35:21.000Z</published>
+    <updated>2021-04-12T16:44:44.410Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;飞火动态壁纸&quot;&gt;&lt;a href=&quot;#飞火动态壁纸&quot; class=&quot;headerlink&quot; title=&quot;飞火动态壁纸&quot;&gt;&lt;/a&gt;飞火动态壁纸&lt;/h1&gt;&lt;h2 id=&quot;可以让桌面动起来的免费软件&quot;&gt;&lt;a href=&quot;#可以让桌面动起来的免费软件&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件 WINDOWS" scheme="https://history1020.github.io/categories/%E8%BD%AF%E4%BB%B6-WINDOWS/"/>
+    
+    
+    <category term="壁纸" scheme="https://history1020.github.io/tags/%E5%A3%81%E7%BA%B8/"/>
+    
+    <category term="免费" scheme="https://history1020.github.io/tags/%E5%85%8D%E8%B4%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>“MARKDOWN插入随机图片API”</title>
