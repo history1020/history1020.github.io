@@ -13,16 +13,18 @@
       
       <categories>
           
-          <category> 记录 代码 </category>
+          <category> 技术文档 </category>
+          
+          <category> HTML </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> HTML </tag>
-            
             <tag> 颜色 </tag>
+            
+            <tag> 标签 </tag>
             
         </tags>
       
@@ -40,7 +42,9 @@
       
       <categories>
           
-          <category> 软件 WINDOWS </category>
+          <category> 软件 </category>
+          
+          <category> WINDOWS </category>
           
       </categories>
       
@@ -67,7 +71,9 @@
       
       <categories>
           
-          <category> 记录 技巧 </category>
+          <category> 技术文档 </category>
+          
+          <category> markdown </category>
           
       </categories>
       
@@ -76,7 +82,7 @@
             
             <tag> markdown </tag>
             
-            <tag> typora </tag>
+            <tag> 图片 </tag>
             
         </tags>
       
@@ -94,7 +100,9 @@
       
       <categories>
           
-          <category> 记录 技术 命令 </category>
+          <category> 技术文档 </category>
+          
+          <category> hexo </category>
           
       </categories>
       
@@ -103,7 +111,7 @@
             
             <tag> hexo </tag>
             
-            <tag> 优化 </tag>
+            <tag> 命令 </tag>
             
         </tags>
       
@@ -121,7 +129,9 @@
       
       <categories>
           
-          <category> 记录 技术 表格 </category>
+          <category> 技术文档 </category>
+          
+          <category> hexo </category>
           
       </categories>
       
@@ -148,7 +158,7 @@
       
       <categories>
           
-          <category> 记录 技术 </category>
+          <category> 技术文档 </category>
           
       </categories>
       
