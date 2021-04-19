@@ -459,6 +459,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -623,7 +636,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-04-16
+                    2021-04-19
                 </div>
                 
 
@@ -972,18 +985,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/04/16/%E7%9B%92%E5%AD%90%E8%BD%AF%E4%BB%B6%E8%A7%A3%E6%9E%90%E7%B1%BB%E6%8E%A8%E8%8D%90%E5%8F%8A%E4%BD%BF%E7%94%A8/">
+                <a href="/2021/04/19/%E7%94%B5%E8%A7%86%E7%9B%92%E5%AD%90%E8%BD%AF%E4%BB%B6%E8%AE%B0%E5%BD%95%E6%8E%A8%E8%8D%90%E5%85%8D%E8%A7%A3%E7%B1%BB/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="盒子软件解析类推荐及使用">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="盒子软件免解类推荐及使用">
                         
-                        <span class="card-title">盒子软件解析类推荐及使用</span>
+                        <span class="card-title">盒子软件免解类推荐及使用</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -993,9 +1005,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-16
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-04-19
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1012,7 +1024,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
