@@ -268,6 +268,21 @@
 		color: #484848;
 		font-weight: bold;
 	}
+	header .back {
+		font-size: 15px;
+		margin: 0;
+		font-weight: 400;
+		text-align: center;
+		position: relative;
+		z-index: 99;
+		border-bottom: 1px solid #e8e8e8;
+		background: #FFF;
+	}
+	header .back a {
+		line-height: 30px;
+		color: #484848;
+		font-weight: bold;
+	}
 	header .logo img {
 		width: 25px;
 	}
