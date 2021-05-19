@@ -542,6 +542,27 @@
 			width: 40px;
 			vertical-align: -10px;
 		}
+
+		header .back {
+			float: right;
+			font-size: 20px;
+			margin: 0;
+			font-weight: 400;
+			border: none;
+		}
+		header .back a {
+			display: block;
+			line-height: 59px;
+			color: #3498db;
+			font-weight: 400;
+		}
+		header .back a:hover {
+			display: block;
+			line-height: 59px;
+			color: #c0392b;
+			font-weight: 400;
+		}
+
 		header .nav {
 			float: left;
 			margin-left: 25px;
