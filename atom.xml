@@ -6,7 +6,7 @@
   <link href="https://history1020.github.io/atom.xml" rel="self"/>
   
   <link href="https://history1020.github.io/"/>
-  <updated>2021-05-27T14:54:22.971Z</updated>
+  <updated>2021-06-17T07:21:48.487Z</updated>
   <id>https://history1020.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IPV6-ZHISHI</title>
+    <link href="https://history1020.github.io/2021/06/17/IPV6-ZHISHI/"/>
+    <id>https://history1020.github.io/2021/06/17/IPV6-ZHISHI/</id>
+    <published>2021-06-17T07:19:54.000Z</published>
+    <updated>2021-06-17T07:21:48.487Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;IPV6真的来了&quot;&gt;&lt;a href=&quot;#IPV6真的来了&quot; class=&quot;headerlink&quot; title=&quot;IPV6真的来了&quot;&gt;&lt;/a&gt;IPV6真的来了&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://history1020.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="IPV6" scheme="https://history1020.github.io/categories/%E9%9A%8F%E7%AC%94/IPV6/"/>
+    
+    
+    <category term="IPV6" scheme="https://history1020.github.io/tags/IPV6/"/>
+    
+    <category term="互联网" scheme="https://history1020.github.io/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+  </entry>
   
   <entry>
     <title>医药电商：圈地大于盲动</title>
@@ -559,34 +588,6 @@
     <category term="hexo" scheme="https://history1020.github.io/tags/hexo/"/>
     
     <category term="表格" scheme="https://history1020.github.io/tags/%E8%A1%A8%E6%A0%BC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客搭建之路</title>
-    <link href="https://history1020.github.io/2021/04/07/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF/"/>
-    <id>https://history1020.github.io/2021/04/07/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF/</id>
-    <published>2021-04-06T23:44:14.000Z</published>
-    <updated>2021-05-02T09:35:05.772Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;我的第一篇博客&quot;&gt;&lt;a href=&quot;#我的第一篇博客&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博客&quot;&gt;&lt;/a&gt;我的第一篇博客&lt;/h1&gt;&lt;hr&gt;
-&lt;h2 id=&quot;使用工具&quot;&gt;&lt;a href=&quot;#使用工具&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术文档" scheme="https://history1020.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
-    
-    <category term="hexo" scheme="https://history1020.github.io/tags/hexo/"/>
-    
-    <category term="优化" scheme="https://history1020.github.io/tags/%E4%BC%98%E5%8C%96/"/>
     
   </entry>
   
