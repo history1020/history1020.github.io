@@ -6,7 +6,7 @@
   <link href="https://history1020.github.io/atom.xml" rel="self"/>
   
   <link href="https://history1020.github.io/"/>
-  <updated>2021-07-21T08:37:33.782Z</updated>
+  <updated>2021-08-22T15:50:16.600Z</updated>
   <id>https://history1020.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站模板下载站推荐</title>
+    <link href="https://history1020.github.io/2021/08/22/wangzhanmoban-1/"/>
+    <id>https://history1020.github.io/2021/08/22/wangzhanmoban-1/</id>
+    <published>2021-08-22T15:43:43.000Z</published>
+    <updated>2021-08-22T15:50:16.600Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;网站模板下载站推荐&quot;&gt;&lt;a href=&quot;#网站模板下载站推荐&quot; class=&quot;headerlink&quot; title=&quot;网站模板下载站推荐&quot;&gt;&lt;/a&gt;网站模板下载站推荐&lt;/h1&gt;&lt;h2 id=&quot;静态网页模板下载&quot;&gt;&lt;a href=&quot;#静态网页模板下载&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="HTML" scheme="https://history1020.github.io/categories/HTML/"/>
+    
+    <category term="网站" scheme="https://history1020.github.io/categories/HTML/%E7%BD%91%E7%AB%99/"/>
+    
+    
+    <category term="推荐" scheme="https://history1020.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
+    
+    <category term="HTML" scheme="https://history1020.github.io/tags/HTML/"/>
+    
+  </entry>
   
   <entry>
     <title>认识软路由（转载少数派）</title>
@@ -559,35 +588,6 @@
     <category term="常用" scheme="https://history1020.github.io/tags/%E5%B8%B8%E7%94%A8/"/>
     
     <category term="文摘" scheme="https://history1020.github.io/tags/%E6%96%87%E6%91%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo常用命令行</title>
-    <link href="https://history1020.github.io/2021/04/07/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
-    <id>https://history1020.github.io/2021/04/07/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C/</id>
-    <published>2021-04-06T23:55:25.000Z</published>
-    <updated>2021-04-13T11:02:14.823Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Hexo常用命令&quot;&gt;&lt;a href=&quot;#Hexo常用命令&quot; class=&quot;headerlink&quot; title=&quot;Hexo常用命令&quot;&gt;&lt;/a&gt;Hexo常用命令&lt;/h1&gt;&lt;h2 id=&quot;指令说明&quot;&gt;&lt;a href=&quot;#指令说明&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术文档" scheme="https://history1020.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
-    <category term="hexo" scheme="https://history1020.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/hexo/"/>
-    
-    
-    <category term="hexo" scheme="https://history1020.github.io/tags/hexo/"/>
-    
-    <category term="命令" scheme="https://history1020.github.io/tags/%E5%91%BD%E4%BB%A4/"/>
     
   </entry>
   

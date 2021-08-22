@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>网站模板下载站推荐</title>
+      <link href="2021/08/22/wangzhanmoban-1/"/>
+      <url>2021/08/22/wangzhanmoban-1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="网站模板下载站推荐"><a href="#网站模板下载站推荐" class="headerlink" title="网站模板下载站推荐"></a>网站模板下载站推荐</h1><h2 id="静态网页模板下载"><a href="#静态网页模板下载" class="headerlink" title="静态网页模板下载"></a>静态网页模板下载</h2><p>1、Template mo    <a href="https://templatemo.com/">点击进入网站</a></p><p>网站有大量免费网站模板下载，当然也有收费模板，主要以HTML+CSS3为主的模板</p><p>2、Start Bootstrap    <a href="https://startbootstrap.com/themes/">点击进入网站</a></p><p>网站有大量免费网站模板下载，当然也有收费模板，主要以HTML+CSS3为主的模板</p><p>3、GITHUB仓库下载 <a href="https://github.com/learning-zone/website-templates">点击进入网站</a></p><p>收藏有大量的html+CSS静态模板，找到Table of contents，可以预览，同时可以下载</p><p>4、colorlib <a href="https://colorlib.com/">点击进入网站</a></p><p>网站有大量免费网站模板下载，当然也有收费模板，主要以HTML+CSS3为主的模板，点击FREE 可下载</p><p>5、BOOTSTRAPMADE  <a href="https://bootstrapmade.com/">点击进入网站</a></p><p>网站有大量免费网站模板下载，当然也有收费模板，主要以HTML+CSS3为主的模板，同时有DEMO可预览，可下载</p><p>6、BootstrapTaste   <a href="https://bootstraptaste.com/">点击进入网站</a></p><p>网站有大量免费网站模板下载，当然也有收费模板，主要以HTML+CSS3为主的模板，同时有DEMO可预览，可下载</p><h2 id="HEXO主题推荐"><a href="#HEXO主题推荐" class="headerlink" title="HEXO主题推荐"></a>HEXO主题推荐</h2><p>hexo建站框架可以直接去hexo<a href="https://hexo.io/">官网</a>按照命令行运行，今日之推荐好用的主题包</p><p>1、Matery 预加载，强推 </p><p><a href="https://github.com/blinkfox/hexo-theme-matery">GitHub - blinkfox/hexo-theme-matery: A beautiful hexo blog theme with material design and responsive design.一个基于材料设计和响应式设计而成的全面、美观的Hexo主题。国内访问：http://blinkfox.com</a></p><p>2、Sakura 非常炫，缺点加载慢 <a href="https://github.com/honjun/hexo-theme-sakura">点击进入GITHUB库页</a></p><p>3、3-hexo 三段式，适合博文多的 <a href="https://github.com/yelog/hexo-theme-3-hexo">点击进入GITHUB库页</a></p><p>4、Next 功能集成多，简洁  <a href="https://github.com/jerryc127/hexo-theme-butterfly/tree/dev">点击进入GITHUB库页</a></p><pre class="line-numbers language-none"><code class="language-none">curl -s https:&#x2F;&#x2F;api.github.com&#x2F;repos&#x2F;theme-next&#x2F;hexo-theme-next&#x2F;releases&#x2F;latest | grep tarball_url | cut -d &#39;&quot;&#39; -f 4 | wget -i - -O- | tar -zx -C themes&#x2F;next --strip-components&#x3D;1<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>5、<a href="https://github.com/jerryc127/hexo-theme-butterfly/tree/dev">Butterfly 也是个好看的</a> </p><p>6、主题：hexo-theme-yun<br>- GitHub: <a href="https://github.com/YunYouJun/hexo-theme-yun">https://github.com/YunYouJun/hexo-theme-yun</a><br>- 使用文档: <a href="https://yun.yunyoujun.cn/">https://yun.yunyoujun.cn</a><br>- 示例站点: <a href="https://www.yunyoujun.cn/">https://www.yunyoujun.cn</a></p><p>7、魔改还不错</p><p>​           blog.wehaox.com<br>下载：<a href="https://github.com/wehaox/Typecho-Butterfly">https://github.com/wehaox/Typecho-Butterfly</a></p><h2 id="wordpress主题推荐"><a href="#wordpress主题推荐" class="headerlink" title="wordpress主题推荐"></a>wordpress主题推荐</h2><h3 id="一、免费推荐"><a href="#一、免费推荐" class="headerlink" title="一、免费推荐"></a>一、免费推荐</h3><p>1、<a href="https://demo.themebetter.com/dux/">DUX主题官方演示站 (themebetter.com)</a></p><p>2、Git主题演示站:<a href="https://gitcafe.net/">极客公园 - 玩的精彩！ (gitcafe.net)</a></p><p>​     Git主题下载：<a href="https://gitee.com/yunluo/git">git: WordPress主题：Git (gitee.com)</a></p><p>​    <a href="https://www.iztwp.com/dl/yunluo-git.html">Git WordPress中文免费主题_主题下载_爱主题 (iztwp.com)</a></p><p>3、博客站wordpress</p><p>主题下载：<a href="https://github.com/mirai-mamori/Sakurairo">https://github.com/mirai-mamori/Sakurairo</a> </p><p>仓库国内镜像：<a href="https://gitee.com/mirai-mamori/Sakurairo">https://gitee.com/mirai-mamori/Sakurairo</a> </p><p>主题使用说明：<a href="https://asuhe.jp/daily/sakurairo-user-manual/">https://asuhe.jp/daily/sakurairo-user-manual/</a></p><h3 id="二、付费推荐"><a href="#二、付费推荐" class="headerlink" title="二、付费推荐"></a>二、付费推荐</h3><p>1、<a href="https://yusi123.com/3233.html">WordPress主题发布：Yusi2.0(扁平化+响应式)正版下载-欲思博客 (yusi123.com)</a></p><p>2、<a href="https://www.xintheme.com/theme/39268.html">Zing-Pro主题, 一款模块化的WordPress企业主题 - 新主题-XinTheme</a></p><p>3、<a href="https://salongweb.com/themes">WordPress主题商城-WordPress主题|WordPress 企业主题|WordPress自媒体主题|WordPress课程主题|WordPress商城主题-萨龙网络 (salongweb.com)</a></p><p>4、<a href="https://www.themepark.com.cn/">wordpress主题,网站模板,wordpress建站-WEB主题公园 (themepark.com.cn)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> HTML </category>
+          
+          <category> 网站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 推荐 </tag>
+            
+            <tag> HTML </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>认识软路由（转载少数派）</title>
       <link href="2021/07/21/ruanluyou-1/"/>
       <url>2021/07/21/ruanluyou-1/</url>
