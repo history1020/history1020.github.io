@@ -6,7 +6,7 @@
   <link href="https://history1020.github.io/atom.xml" rel="self"/>
   
   <link href="https://history1020.github.io/"/>
-  <updated>2021-08-22T15:50:16.600Z</updated>
+  <updated>2021-08-26T06:02:27.951Z</updated>
   <id>https://history1020.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo其他服务器环境搭建</title>
+    <link href="https://history1020.github.io/2021/08/26/hexo-fuwu-bushu/"/>
+    <id>https://history1020.github.io/2021/08/26/hexo-fuwu-bushu/</id>
+    <published>2021-08-26T05:55:53.000Z</published>
+    <updated>2021-08-26T06:02:27.951Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hexo其他服务器环境搭建留档&quot;&gt;&lt;a href=&quot;#hexo其他服务器环境搭建留档&quot; class=&quot;headerlink&quot; title=&quot;hexo其他服务器环境搭建留档&quot;&gt;&lt;/a&gt;hexo其他服务器环境搭建留档&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="hexo" scheme="https://history1020.github.io/categories/hexo/"/>
+    
+    <category term="教程" scheme="https://history1020.github.io/categories/hexo/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="代码" scheme="https://history1020.github.io/tags/%E4%BB%A3%E7%A0%81/"/>
+    
+    <category term="hexo" scheme="https://history1020.github.io/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>网站模板下载站推荐</title>
@@ -561,33 +590,6 @@
     <category term="markdown" scheme="https://history1020.github.io/tags/markdown/"/>
     
     <category term="图片" scheme="https://history1020.github.io/tags/%E5%9B%BE%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>行业研究摘要</title>
-    <link href="https://history1020.github.io/2021/04/08/jihua-ziyong/"/>
-    <id>https://history1020.github.io/2021/04/08/jihua-ziyong/</id>
-    <published>2021-04-08T15:14:32.000Z</published>
-    <updated>2021-05-01T15:22:56.992Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;body oncontextmenu=&#39;return false&#39; ondragstart=&#39;return false&#39; onselectstart =&#39;return false&#39; onselect=&#39;document.selection.empty()&#39;</summary>
-        
-      
-    
-    
-    
-    <category term="自用" scheme="https://history1020.github.io/categories/%E8%87%AA%E7%94%A8/"/>
-    
-    
-    <category term="常用" scheme="https://history1020.github.io/tags/%E5%B8%B8%E7%94%A8/"/>
-    
-    <category term="文摘" scheme="https://history1020.github.io/tags/%E6%96%87%E6%91%98/"/>
     
   </entry>
   
