@@ -6,7 +6,7 @@
   <link href="https://history1020.github.io/atom.xml" rel="self"/>
   
   <link href="https://history1020.github.io/"/>
-  <updated>2021-08-26T06:02:27.951Z</updated>
+  <updated>2021-09-28T06:03:54.430Z</updated>
   <id>https://history1020.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bitwarden密码管理神器（教程转载）</title>
+    <link href="https://history1020.github.io/2021/09/28/bitwarden/"/>
+    <id>https://history1020.github.io/2021/09/28/bitwarden/</id>
+    <published>2021-09-28T05:57:29.000Z</published>
+    <updated>2021-09-28T06:03:54.430Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Bitwarden密码管理神器（教程转载）-小白爱折腾&quot;&gt;&lt;a href=&quot;#Bitwarden密码管理神器（教程转载）-小白爱折腾&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件" scheme="https://history1020.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="WINDOWS" scheme="https://history1020.github.io/categories/%E8%BD%AF%E4%BB%B6/WINDOWS/"/>
+    
+    
+    <category term="教程" scheme="https://history1020.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="软件" scheme="https://history1020.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo其他服务器环境搭建</title>
@@ -561,35 +590,6 @@
     <category term="免费" scheme="https://history1020.github.io/tags/%E5%85%8D%E8%B4%B9/"/>
     
     <category term="壁纸" scheme="https://history1020.github.io/tags/%E5%A3%81%E7%BA%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>“MARKDOWN随机图片API”</title>
-    <link href="https://history1020.github.io/2021/04/11/%E2%80%9CMARKDOWN%E6%8F%92%E5%85%A5%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87API%E2%80%9D/"/>
-    <id>https://history1020.github.io/2021/04/11/%E2%80%9CMARKDOWN%E6%8F%92%E5%85%A5%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87API%E2%80%9D/</id>
-    <published>2021-04-11T14:48:41.000Z</published>
-    <updated>2021-05-02T09:35:02.756Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;MARKDOWN软件调用API随机图片的方法&quot;&gt;&lt;a href=&quot;#MARKDOWN软件调用API随机图片的方法&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术文档" scheme="https://history1020.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
-    <category term="markdown" scheme="https://history1020.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/markdown/"/>
-    
-    
-    <category term="markdown" scheme="https://history1020.github.io/tags/markdown/"/>
-    
-    <category term="图片" scheme="https://history1020.github.io/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   

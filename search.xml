@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Bitwarden密码管理神器（教程转载）</title>
+      <link href="2021/09/28/bitwarden/"/>
+      <url>2021/09/28/bitwarden/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Bitwarden密码管理神器（教程转载）-小白爱折腾"><a href="#Bitwarden密码管理神器（教程转载）-小白爱折腾" class="headerlink" title="Bitwarden密码管理神器（教程转载）-小白爱折腾"></a>Bitwarden密码管理神器（教程转载）-小白爱折腾</h1><blockquote><p>群晖进阶- DOCKER安装 Bitwarden</p></blockquote><h2 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a><strong>使用场景</strong></h2><ol><li>登录注册过的网站越来越多，经常出现，忘了我用的是哪个手机号或者邮箱注册的账号，或想起了账号却忘记了密码，或找回密码发现“必须含有大小写字母和数字”，密码成为一个非常难以管理的问题。这时往往为了方便和省事就几乎所有网站都用一个密码，结果安全性非常糟糕；</li><li>把密码密密码码写在记事本上，然后不小心丢了本本，整个身家性命付诸东流。</li></ol><blockquote><p>作为密码管理软件，Bitwarden可以集中存储，加密，生成我们在各个网站的用户名和密码并在对应的网站自动填写。目前比较流行的密码管理软件有 1Password、LastPass 以及 KeePass等。这类软件收费不菲，比如说1Password目前改成订阅制，个人版是3刀/月，个人家庭版是5刀/月，另外免费版本所有的数据全部存放在本地，对于有多设备的玩家来说简直是噩梦。BitWarden， 解决上述场景的两大痛点，并且开源可部署，全平台同步，密码保存在自己服务器上，安全可靠方便是它的最大优点。</p></blockquote><h2 id="推荐环境"><a href="#推荐环境" class="headerlink" title="推荐环境"></a><strong>推荐环境</strong></h2><ul><li>支持Docker的群晖（黑白皆可）</li><li>网络条件（因内网使用有群晖即可，其保存密码功能完整，但便利性缺失，可参考下文搭建，不作展开，以下以外网使用为主讨论）</li><li>宽带（是否公网均可）</li><li>自身域名（本人是Freenom申请的免费域名）</li><li>域名证书：国内以阿里云或腾讯云为主，像我这样国外的免费域名，可使用二级域名访问Bitwarden服务器。（因我觉得对小白来说，申请证书要输入一堆代码是很残忍的，所以本人是通过freessl网站申请的(<a href="https://myssl.com/),%E5%9B%BE%E5%BD%A2%E5%8C%96%E6%93%8D%E4%BD%9C%E5%90%8E%EF%BC%8C%E5%8F%AF%E9%80%9A%E8%BF%87">https://myssl.com/),图形化操作后，可通过</a> KeyManage 软件，下载和管理证书文件。</li></ul><p><img src="https://pic1.zhimg.com/v2-71eb3ba42c3cd4ddae44c70bdb6c8e28_r.jpg" alt="img"></p><h2 id="安装流程"><a href="#安装流程" class="headerlink" title="安装流程"></a><strong>安装流程</strong></h2><h3 id="1－下载镜像"><a href="#1－下载镜像" class="headerlink" title="1－下载镜像"></a><strong>1－下载镜像</strong></h3><p>打开Docker，“注册表” 中搜索 bitwardenrs，双击 bitwardenrs/server 并选择 latest 下载。（如果下载速度慢，请添加国内镜像源，请参考 ）。这个bitwardenrs/server是新版镜像，网上很多教程使用的，老版镜像是mprasil/bitwarden，此镜像已被新版镜像替代并停止更新。</p><p><img src="https://pic1.zhimg.com/80/v2-e7d89b157660c36bccd296a18a434360_720w.jpg" alt="img"></p><h3 id="2－设置容器参数"><a href="#2－设置容器参数" class="headerlink" title="2－设置容器参数"></a><strong>2－设置容器参数</strong></h3><p>镜像下载完成后，到 Docker-映像，双击打开下载好的镜像，点击 “高级设置” ，请参考下图作配置。添加数据文件的存储路径：“卷” 中添加 “文件夹路径”docker/bitwarden/data（这是群晖文件物理路径，依据自己情况修改，data文件夹请自建），“装载路径”/data/（不能修改），另SSL路径主要针对非反向代理下的HTTPS连接，本文不作展开说明。</p><p><img src="https://pic2.zhimg.com/80/v2-1c3ed7cd6ab7627c5c96018a6f7baff9_720w.jpg" alt="img"></p><p>修改 “端口设置”：修改容器端口为 80（不需要更改）所对应的本地端口为19999（自定义，不与群晖已使用的端口冲突即可）；类型保持默认为 TCP（新版镜像有一个容器端口为 3021 的条目，可以删除掉或者不用管它）</p><h3 id="3－设置反向代理"><a href="#3－设置反向代理" class="headerlink" title="3－设置反向代理"></a><strong>3－设置反向代理</strong></h3><blockquote><p>注：如果使用内网穿透模式，则不需设置反向代理</p></blockquote><p>进入群晖的 “控制面板”-“Synology 应用程序门户”-“反向代理服务器” 页面，如图添加一条 “反向代理服务器规则”。（“来源端口” 你自己定义，这里假如为 18888；“目的地端口” 对应上面配置容器参数步骤中设置的本地端口 19999）</p><p><img src="https://pic3.zhimg.com/80/v2-8b44bbc42707c958fb3fe345d9063c26_720w.jpg" alt="img"></p><p>进入群晖的 “控制面板”-“安全性-“证书” 页面，将你的域名证书文件和私钥文件导入群晖中。</p><p><img src="https://pic4.zhimg.com/80/v2-adbfdcb3b3bed25317cda3ee55c28cfb_720w.jpg" alt="img"></p><p>在” 证书 “页面，设置刚才添加的反向代理服务器规则使用此证书。<br>这样，Bitwarden 服务器基本就搭建好了，最后一步：配置一下端口转发</p><p><img src="https://pic4.zhimg.com/80/v2-56cb110547dd140dc1f3cf2265f875f3_720w.jpg" alt="img"></p><p>启动 Bitwarden 容器后，浏览器输入 <a href="https://群晖的/">https://群晖的</a> ip:18888（不启用 SSL 则为：<a href="http://群晖的/">http://群晖的</a> ip:19999），应该就可以进入登录页面了。<br>如果你只是打算在内网中使用 Bitwarden，那到这里就搭建完成了。</p><h3 id="4－外网访问"><a href="#4－外网访问" class="headerlink" title="4－外网访问"></a><strong>4－外网访问</strong></h3><p>有公网IP通过DDSN访问，如果没有公网IP，则需通过内网穿透（因我有公网IP，内网穿透暂未做详细测试）</p><p><img src="https://pic3.zhimg.com/80/v2-f0b6d7ec8362a26b6675da5f02094fd2_720w.jpg" alt="img"></p><h2 id="常用参数"><a href="#常用参数" class="headerlink" title="常用参数"></a><strong>常用参数</strong></h2><ol><li>禁用新用户注册：添加环境变量 SIGNUPS_ALLOWED=false</li><li>禁用邀请：添加环境变量 INVITEATIONS_ALLOWED=false</li><li>启用日志记录：添加环境变量 LOG_FILE=/data/bitwarden.log</li><li>开启管理界面：添加环境变量 ADMIN_TOKEN=123456 为自定义的一串任意字符。开启管理页面后，/admin 子目录即是管理页面地址，如：<a href="https://yourdomain.com:18888/admin">https://yourdomain.com:18888/admin</a> 你可以登录管理页面查看已注册用户并删除他们、开启二次验证、使用 YubiKey 等更多高级功能。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+          <category> WINDOWS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo其他服务器环境搭建</title>
       <link href="2021/08/26/hexo-fuwu-bushu/"/>
       <url>2021/08/26/hexo-fuwu-bushu/</url>
