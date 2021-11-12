@@ -370,7 +370,7 @@ header .side-nav .social-link {
 
 .cover-btns {
     position: relative;
-    top: 2vh;
+    top: 6vh;
     text-align: center;
 }
 
@@ -577,7 +577,7 @@ header .go-back i {
 .bg-cover .title {
     font-size: 3rem;
     line-height: 1.2em;
-    margin-bottom: 20px;
+    margin-bottom: -4px;
     position: relative;
 }
 
