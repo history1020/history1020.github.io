@@ -96,7 +96,7 @@ $(function() {
       icon: 'img/headline.png',
     }, {
       name: '热点跟踪',
-      link: 'ttps://houxu.app/',
+      link: 'https://houxu.app/',
       box_shadow: '#0078D8',
       icon: 'img/Ar25.png',
     }, {
